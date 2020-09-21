@@ -58,8 +58,6 @@ class Frontend(object):
         self.b5.grid(row=6, column=3)
         self.b6.grid(row=7, column=3)
 
-        self.window.mainloop()
-
     def get_selected_row(self, event):
         global selected_tuple
         try:
